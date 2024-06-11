@@ -1,0 +1,43 @@
+ z.why{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.cir{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cir i{
+    font-size: 12px;
+}
+.cir.active {
+    background-color: black;
+    color: white;
+  }
+.dec h3{
+    font-size: 55px;
+    width: 200px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.dec h6{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.why img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100px 30px 190px 50px;
+}
+@media (max-width:764px) {
+    .dec h3{
+        font-size: 40px;
+    }
+}

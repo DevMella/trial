@@ -1,0 +1,33 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inconsolata', monospace;
+  overflow-x: hidden;
+}
+.contain{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.btn{
+  width: 170px;
+  height: 42px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #b59de3;
+  color: white;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width:764px) {
+  .contain{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.flavour{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.flavour h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.flavour h6{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.flavour img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px 50px 200px 60px;
+}
+.fat{
+    padding: 0px 0px 0px 50px;
+}
+@media (max-width:764px) {
+    .fat{
+        padding: 0px 0px 0px 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.enjoy{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enjoy h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+@media (max-width:764px) {
+    .enjoy h1{
+        font-size: 1.4rem;
+    }
+}
